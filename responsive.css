@@ -1,8 +1,8 @@
 /* Desktop devices */
 @media screen and (min-width: 1024px) {
-    .submitButton{
+    /* .submitButton{
         width: 100% !important;
-    }
+    } */
 }
 
 /* Tablet devices */
@@ -17,10 +17,16 @@
         width: 100% !important;
     }
     .circle{
-        margin-left: 23vw !important;
+        /* margin-left: 23.5vw !important; */
+        display: block !important;
+        margin: auto !important;
+        margin-top: 5vh !important;
     }
     .submitButton{
-        width: 95% !important;
+        width: 15vh !important;
+        display: block;
+        margin: auto;
+        margin-top: 2vh !important;
     }
 }
 
@@ -36,9 +42,15 @@
         width: 100% !important;
     }
     .circle{
-        margin-left: 20vw !important;
+        /* margin-left: 19vw !important; */
+        display: block !important;
+        margin: auto !important;
+        margin-top: 5vh !important;
     }
     .submitButton{
-        width: 97% !important;
+        width: 15vh !important;
+        display: block;
+        margin: auto;
+        margin-top: 2vh !important;
     }
 }
